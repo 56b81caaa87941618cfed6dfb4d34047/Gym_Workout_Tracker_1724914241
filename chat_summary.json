@@ -1,64 +1,98 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1724914244",
-        "component_file_name": "",
-        "div_id": ""
-    },
-    {
-        "role": "user",
-        "content": "add a button that says submit",
-        "timestamp": "29082024065132",
-        "message_id": "guest29082024065132"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Okay, I'll add a button that says \"submit.\"",
-        "timestamp": "29082024065133",
-        "message_id": "guest29082024065132"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a button that says 'Submit' on the main page\", \"checked\": true}, {\"feature\": \"Create a confirmation modal that appears when the 'Submit' button is clicked\", \"checked\": false}, {\"feature\": \"Implement a loading spinner while the submission is processing\", \"checked\": false}, {\"feature\": \"Add tooltips to explain the purpose of the submission\", \"checked\": false}, {\"feature\": \"Include form validation to ensure all fields are completed before submission\", \"checked\": true}], \"input_token_count\": 222, \"output_token_count\": 117, \"time_taken\": \"0:00:02.174853\"}",
-        "timestamp": "29082024065136",
-        "message_id": "guest29082024065132"
-    },
-    {
-        "role": "user",
-        "content": "add a button that says submit",
-        "timestamp": "29082024065223",
-        "message_id": "guest29082024065223"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Okay, I'll add a button that says submit.",
-        "timestamp": "29082024065224",
-        "message_id": "guest29082024065223"
-    },
-    {
         "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific action do you want the 'submit' button to perform?\", \"option1\": \"Submit a form\", \"option2\": \"Confirm an action\"}, {\"question 2\": \"Where would you like the 'submit' button to be positioned within the app?\", \"option1\": \"At the bottom of the screen\", \"option2\": \"Next to the form fields\"}], \"input_token_count\": 301, \"output_token_count\": 91, \"time_taken\": \"0:00:02.220450\"}",
-        "timestamp": "29082024065228",
-        "message_id": "guest29082024065223"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a button that says 'submit'\", \"checked\": false}, {\"feature\": \"Include a confirmation modal after submission\", \"checked\": false}, {\"feature\": \"Implement an auto-fill feature for frequent submissions\", \"checked\": false}, {\"feature\": \"Add a required field indicator\", \"checked\": true}, {\"feature\": \"Create a progress bar for submission status\", \"checked\": false}], \"input_token_count\": 255, \"output_token_count\": 94, \"time_taken\": \"0:00:01.862148\"}",
-        "timestamp": "29082024065228",
-        "message_id": "guest29082024065223"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Okay, I'll add a button with the text \"nine.\"",
-        "timestamp": "29082024065818",
-        "message_id": "guest29082024065815"
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionality do you want for the button with text 'nine'?\", \"option1\": \"Link to another page\", \"option2\": \"Trigger an action within the app\"}, {\"question 2\": \"Where would you like the button labeled 'nine' to be positioned?\", \"option1\": \"At the top of the screen\", \"option2\": \"At the bottom of the screen\"}], \"input_token_count\": 323, \"output_token_count\": 95, \"time_taken\": \"0:00:02.162700\"}",
+        "message_id": "guest29082024065815",
+        "timestamp": "29082024065821",
+        "component_file_name": "simple_cta_component_1724914244",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "user",
         "content": "add a bbutton with text nine",
+        "message_id": "guest29082024065815",
         "timestamp": "29082024065816",
+        "component_file_name": "simple_cta_component_1724914244",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Okay, I'll add a button with the text \"nine.\"",
+        "message_id": "guest29082024065815",
+        "timestamp": "29082024065818",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a button that says 'submit'\", \"checked\": false}, {\"feature\": \"Include a confirmation modal after submission\", \"checked\": false}, {\"feature\": \"Implement an auto-fill feature for frequent submissions\", \"checked\": false}, {\"feature\": \"Add a required field indicator\", \"checked\": true}, {\"feature\": \"Create a progress bar for submission status\", \"checked\": false}], \"input_token_count\": 255, \"output_token_count\": 94, \"time_taken\": \"0:00:01.862148\"}",
+        "message_id": "guest29082024065223",
+        "timestamp": "29082024065228",
+        "component_file_name": "simple_footer_component_1724914244",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific action do you want the 'submit' button to perform?\", \"option1\": \"Submit a form\", \"option2\": \"Confirm an action\"}, {\"question 2\": \"Where would you like the 'submit' button to be positioned within the app?\", \"option1\": \"At the bottom of the screen\", \"option2\": \"Next to the form fields\"}], \"input_token_count\": 301, \"output_token_count\": 91, \"time_taken\": \"0:00:02.220450\"}",
+        "message_id": "guest29082024065223",
+        "timestamp": "29082024065228",
+        "component_file_name": "simple_footer_component_1724914244",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Okay, I'll add a button that says submit.",
+        "message_id": "guest29082024065223",
+        "timestamp": "29082024065224",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says submit",
+        "message_id": "guest29082024065223",
+        "timestamp": "29082024065223",
+        "component_file_name": "simple_footer_component_1724914244",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a button that says 'Submit' on the main page\", \"checked\": true}, {\"feature\": \"Create a confirmation modal that appears when the 'Submit' button is clicked\", \"checked\": false}, {\"feature\": \"Implement a loading spinner while the submission is processing\", \"checked\": false}, {\"feature\": \"Add tooltips to explain the purpose of the submission\", \"checked\": false}, {\"feature\": \"Include form validation to ensure all fields are completed before submission\", \"checked\": true}], \"input_token_count\": 222, \"output_token_count\": 117, \"time_taken\": \"0:00:02.174853\"}",
+        "message_id": "guest29082024065132",
+        "timestamp": "29082024065136",
+        "component_file_name": "simple_footer_component_1724914244",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Okay, I'll add a button that says \"submit.\"",
+        "message_id": "guest29082024065132",
+        "timestamp": "29082024065133",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says submit",
+        "message_id": "guest29082024065132",
+        "timestamp": "29082024065132",
+        "component_file_name": "simple_footer_component_1724914244",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Can you describe the project a bit more?",
+        "timestamp": "29082024065821",
         "message_id": "guest29082024065815"
     }
 ]
