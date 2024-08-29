@@ -36,5 +36,11 @@
         "content": "Okay, I'll add a button that says submit.",
         "timestamp": "29082024065224",
         "message_id": "guest29082024065223"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific action do you want the 'submit' button to perform?\", \"option1\": \"Submit a form\", \"option2\": \"Confirm an action\"}, {\"question 2\": \"Where would you like the 'submit' button to be positioned within the app?\", \"option1\": \"At the bottom of the screen\", \"option2\": \"Next to the form fields\"}], \"input_token_count\": 301, \"output_token_count\": 91, \"time_taken\": \"0:00:02.220450\"}",
+        "timestamp": "29082024065228",
+        "message_id": "guest29082024065223"
     }
 ]
