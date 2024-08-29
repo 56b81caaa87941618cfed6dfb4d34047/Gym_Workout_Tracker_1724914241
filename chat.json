@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionality do you want for the button with text 'nine'?\", \"option1\": \"Link to another page\", \"option2\": \"Trigger an action within the app\"}, {\"question 2\": \"Where would you like the button labeled 'nine' to be positioned?\", \"option1\": \"At the top of the screen\", \"option2\": \"At the bottom of the screen\"}], \"input_token_count\": 323, \"output_token_count\": 95, \"time_taken\": \"0:00:02.162700\"}",
+        "message_id": "guest29082024065815",
+        "timestamp": "29082024065821",
+        "component_file_name": "simple_cta_component_1724914244",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a bbutton with text nine",
         "message_id": "guest29082024065815",
