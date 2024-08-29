@@ -42,5 +42,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific action do you want the 'submit' button to perform?\", \"option1\": \"Submit a form\", \"option2\": \"Confirm an action\"}, {\"question 2\": \"Where would you like the 'submit' button to be positioned within the app?\", \"option1\": \"At the bottom of the screen\", \"option2\": \"Next to the form fields\"}], \"input_token_count\": 301, \"output_token_count\": 91, \"time_taken\": \"0:00:02.220450\"}",
         "timestamp": "29082024065228",
         "message_id": "guest29082024065223"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a button that says 'submit'\", \"checked\": false}, {\"feature\": \"Include a confirmation modal after submission\", \"checked\": false}, {\"feature\": \"Implement an auto-fill feature for frequent submissions\", \"checked\": false}, {\"feature\": \"Add a required field indicator\", \"checked\": true}, {\"feature\": \"Create a progress bar for submission status\", \"checked\": false}], \"input_token_count\": 255, \"output_token_count\": 94, \"time_taken\": \"0:00:01.862148\"}",
+        "timestamp": "29082024065228",
+        "message_id": "guest29082024065223"
     }
 ]
